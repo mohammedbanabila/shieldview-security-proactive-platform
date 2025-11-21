@@ -1,0 +1,56 @@
+# FastAPI GraphQL Middleware Service Dependencies
+
+# Core FastAPI and GraphQL
+fastapi==0.121.3
+strawberry-graphql[fastapi]==0.286.1
+uvicorn==0.38.0
+
+# Async database drivers
+asyncpg==0.30.0
+aiopg==1.4.0
+databases[postgresql]==0.9.0
+
+# Security dependencies
+python-jose[cryptography]==3.5.0
+passlib[bcrypt]==1.7.4
+bcrypt==5.0.0
+python-multipart==0.0.20
+
+# Redis client and caching
+redis[hiredis]==7.0.1
+aioredis==2.0.1
+
+# HTTP client for Django integration
+httpx==0.28.1
+aiohttp==3.13.2
+
+# Configuration and environment
+pydantic==2.12.4
+pydantic-settings==2.11.0
+python-dotenv==1.2.1
+
+# Logging and monitoring
+structlog==25.5.0
+prometheus-client==0.23.1
+
+# Development and testing
+pytest==8.4.2
+pytest-asyncio==1.2.0
+pytest-cov==7.0.0
+black==25.9.0
+isort==7.0.0
+flake8==7.3.0
+mypy==1.18.2
+
+# WebSocket support
+websockets==15.0.1
+
+
+# JSON Web Tokens
+PyJWT==2.10.1
+
+# Input validation and sanitization
+validators==0.35.0
+
+# Performance monitoring
+psutil==7.1.2
